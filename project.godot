@@ -10,12 +10,36 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Reference",
+"class": "BaseItem",
+"language": "GDScript",
+"path": "res://Scripts/BaseItem.gd"
+}, {
+"base": "Reference",
 "class": "BaseStauts",
 "language": "GDScript",
 "path": "res://Scripts/BaseStatus.gd"
+}, {
+"base": "BaseItem",
+"class": "Consumables",
+"language": "GDScript",
+"path": "res://Scripts/Consumables.gd"
+}, {
+"base": "BaseItem",
+"class": "Equipment",
+"language": "GDScript",
+"path": "res://Scripts/Equipment.gd"
+}, {
+"base": "Reference",
+"class": "Monster",
+"language": "GDScript",
+"path": "res://Scripts/Monster.gd"
 } ]
 _global_script_class_icons={
-"BaseStauts": ""
+"BaseItem": "",
+"BaseStauts": "",
+"Consumables": "",
+"Equipment": "",
+"Monster": ""
 }
 
 [application]
