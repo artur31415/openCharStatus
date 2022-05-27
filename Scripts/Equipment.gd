@@ -1,9 +1,13 @@
 class_name Equipment extends BaseItem
 
-enum Type {
+enum TYPES {
     WEAPON,
     ARMOR
 }
 
-func _init():
+var Type
+
+#NOTE: SLOTS FOR IMPROVMENT?
+
+func _init(_Key, _Name, _baseStatus).(_Key, _Name, _baseStatus):
     pass

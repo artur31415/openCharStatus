@@ -1,7 +1,5 @@
 class_name BaseStauts
 
-var Key
-
 var values = {
     "LVL": 1,
     "EXP": 0,
@@ -19,6 +17,5 @@ var values = {
     "MDEF": 0
 }
 
-func _init(_Key, _values):
-    Key = _Key
+func _init(_values):
     values = _values
